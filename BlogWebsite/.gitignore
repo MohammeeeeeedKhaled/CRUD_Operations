@@ -2,11 +2,37 @@
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
-# Build folders
-bin/
-obj/
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
 
 # Others
 *.log
 *.tmp
+*.cache
+*.pdb
+
+# Web App Publish Settings  
+*.Publish.xml
+*.pubxml
+
+# Microsoft Azure Web App publish settings
+PublishProfiles/
+
+# Node.js
+node_modules/
+
+# JetBrains Rider
+.idea/
